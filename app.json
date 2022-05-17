@@ -1,6 +1,6 @@
 {
     
-  "name": "Raiden Shogun",
+  "name": "Doreamon",
   "description": "A WhatsApp Bot With Rich NSFW Features .",
   "keywords": [
       "bot",
@@ -13,7 +13,7 @@
       "whatsapp-botto"
   ],
   "website": "https://github.com/AT3NA/raiden-shougen/blob/main/README.md",
-  "repository": "https://github.com/at3na.git",
+  "repository": "https://github.com/Ronen6999/Doreamon.git",
   "logo": "https://telegra.ph/file/d29e74c2d3bd096a71db8.png",
   "success_url": "/",
   "env": {
