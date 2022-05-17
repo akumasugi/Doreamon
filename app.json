@@ -1,7 +1,7 @@
 {
     
   "name": "Doreamon",
-  "description": "A WhatsApp Bot With Rich NSFW Features .",
+  "description": "A WhatsApp Bot With Rich ANIME Features .",
   "keywords": [
       "bot",
       "whatsapp",
@@ -12,9 +12,9 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/AT3NA/raiden-shougen/blob/main/README.md",
+  "website": "https://github.com/Ronen6999/Doreamon/blob/main/README.md",
   "repository": "https://github.com/Ronen6999/Doreamon.git",
-  "logo": "https://telegra.ph/file/d29e74c2d3bd096a71db8.png",
+  "logo": "https://i.ibb.co/WDPH14Y/IMG-20220517-104050.jpg",
   "success_url": "/",
   "env": {
       "PREFIX": {
