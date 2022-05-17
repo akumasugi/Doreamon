@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
 			return void this.client.sendMessage(
 				M.from,
 				{ url: chitoge },
-				MessageType.gif,
+				MessageType.video,
 				{
 					quoted: M.WAMessage,
 					mimetype: Mimetype.gif,
