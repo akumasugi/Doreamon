@@ -14,7 +14,7 @@
 </div><br/>
 <br/>
 
-## ✨ Highlights
+## 🔖 Highlights
 
 -   Fully Modular Design
 -   Object Oriented
@@ -23,17 +23,17 @@
 -   Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best
     WhatsApp Library Out There)
 
-## 💻 Deploy/Hosting Guide
+## 📑 Deploy/Hosting Guide
 
 -   Section Moved to
     [CONTACT US](https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO)
 
-## 🍥 Features of the Repo
+## 👀 Features of the Repo
 
 -   To view all features, click
     here➡️[DOREAMON_featuresList.md](https://github.com/Ronen6999/Doreamon/blob/main/Features.md)
 
-## 💪 Contribution
+## ✨ Contribution
 
 -   Feel free to open issues regarding any problems or if you have any feature requests
 -   Make sure to follow the ESLint Rules while editing the code and run
