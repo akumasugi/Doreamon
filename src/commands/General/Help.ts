@@ -9,11 +9,11 @@ import request from '../../lib/request'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'help',
+            command: 'gadget',
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
             usage: `${client.config.prefix}help (command_name)`,
-            aliases: ['h']
+            aliases: ['g']
         })
     }
 
@@ -65,7 +65,7 @@ export default class Command extends BaseCommand {
 │    ©KAI
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
-💙 *Note: Use ${this.client.config.prefix}help <command_name> to view the gadgets info*` }
+💙 *Note: Use ${this.client.config.prefix}gadget <command_name> to view the gadgets info*` }
             )
         }
         const key = parsedArgs.joined.toLowerCase()
