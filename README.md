@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://github.com/iamherok/Cara_public"><img src="https://telegra.ph/file/d29e74c2d3bd096a71db8.png" alt="chitoge" border="0"></a>
+<a href="https://github.com/iamherok/Cara_public"><img src="https://i.ibb.co/WDPH14Y/IMG-20220517-104050.jpg" alt="chitoge" border="0"></a>
 
-# **RAIDEN SHOUGEN: A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON CHITOGE.</h1>**
+# **DOREAMON: A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON CHITOGE.</h1>**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
@@ -9,7 +9,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/AT3NA/raiden-shougen.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Ronen6999/Doreamon.git)
 
 </div><br/>
 <br/>
@@ -26,7 +26,7 @@
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [RAIDEN SHOUGEN GUIDES](https://youtu.be/KVrt3iKO4L0)
+    [CONTACT US](https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO)
 
 ## 🍥 Features of the Repo
 
