@@ -60,10 +60,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ *I WANT DORACAKE* ]┈❅───
+ ──❅[ *I WANT DORACAKE* ]❅───
 ┌────────────┈❅
 │   🐈 *DOREAMON* 🐈
-│    _©KAI_
+│     *By KAI*
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 💙 *Note: Use ${this.client.config.prefix}gadget <command_name> to view the gadgets info*` }
