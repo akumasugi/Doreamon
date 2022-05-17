@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/at3na/raiden-shougen.git"
+        "url": "https://github.com/Ronen6999/Doreamon.git"
     },
     "keywords": [
         "bot",
@@ -23,7 +23,7 @@
     "author": "Synthesized Infinity & Shinei Ichijo",
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/ShineiIchijo/Chitoge/issues"
+        "url": "https://github.com/Ronen6999/Doreamon.git"
     },
     "homepage": "https://github.com/at3na/raiden-shougen/blob/main/README.md",
     "devDependencies": {
