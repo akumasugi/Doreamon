@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
             'https://c.tenor.com/5qtcif_1Xi8AAAPo/sad-doraemon.mp4'
         ]
         let beckylynch = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.gif, {quoted:M.WAMessage,
+        return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `Sent you the support Link in personal message \n` }
         )
