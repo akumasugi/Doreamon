@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://telegra.ph/file/1a62a7ddb7e44b7ea91d7.mp4";
+			"https://c.tenor.com/JxV1XvJ2WPgAAAPo/%E1%BB%A7a-strange.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: ` *⚡Raiden Shogun⚡* \n\n🍀 *Description: A WhatsApp Bot developed by *HARAJIT* With Rich Anime features.*\n\n🌐 *OFFICIAL BOT URL:https://github.com/AT3NA/raiden-shougen* \n\n 📒 *Guide:https://youtu.be/KVrt3iKO4L0* \n\n 👾 *BOT URL:https://github.com/AT3NA/raiden-shougen* \n`,
+				caption: ` *🐱DOREAMON🐱* \n\n🍀 *Description: *A WhatsApp Bot With Rich Anime features.*\n\n🌐 *OFFICIAL BOT URL:https://github.com/Ronen6999/Doreamon.git* \n\n 📒 \n\n 👾 *BOT URL:https://github.com/AT3NA/raiden-shougen* \n`,
 			}
 		);
 	};
