@@ -9,7 +9,7 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "ei",
+			command: "dora",
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}elaina`,
