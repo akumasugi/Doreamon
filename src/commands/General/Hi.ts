@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://telegra.ph/file/e2781bfddb646c5f11649.mp4";
+			"https://c.tenor.com/t7uGG-fOaF4AAAPo/doraemon-itches.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `No salutations needed. My exalted status shall not be disclosed as we travel among the common folk. I acknowledge that you are a person of superior ability. Henceforth, you will be my guard. Worry not. Should any danger arise, I shall dispose of it . Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Yo I'm Doreamon! I came from twentysecond century to help you. Plz Use something from *${this.client.config.prefix}gadget* list if you want any gadget. \n`,
 			}
 		);
 	};
