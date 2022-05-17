@@ -35,30 +35,30 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://telegra.ph/file/895787e1d1384273dcf56.jpg'
+                'https://c.tenor.com/g27oWEO9nV8AAAPo/yay-hooray.mp4'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role: string;
 				if (exp < 500) {
-					role = "🌸 Inazuma Citizen";
+					 = "🌸 citizen";
 				} else if (exp < 1000) {
-					role = "🔎 Inazuma Cleric";
+					role = "🔎 Cleric";
 				} else if (exp < 2000) {
-					role = "🔮 Inazuma Wizard";
+					role = "🔮 Wizard";
 				} else if (exp < 5000) {
-					role = "♦️ Inazuma Mage";
+					role = "♦️ Mage";
 				} else if (exp < 10000) {
-					role = "🎯 Inazuma Noble";
+					role = "🎯 Noble";
 				} else if (exp < 25000) {
-					role = "✨ Inazuma Elite";
+					role = "✨ Elite";
 				} else if (exp < 50000) {
-					role = "🔶️ Inazuma Legend";
+					role = "🔶️ Legend";
 				} else if (exp < 75000) {
-					role = "🌀 Inazuma Supreme";
+					role = "🌀 Supreme";
 				} else if (exp < 10000000) {
-					role = "💎 Inazuma God";
+					role = "💎 God";
 				} else {
-					role = "Teyvat God 😏";
+					role = "Doracake God 🤣";
 				}
 
 				let level: number;
@@ -86,9 +86,9 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://telegra.ph/file/895787e1d1384273dcf56.jpg'
+                    'https://c.tenor.com/g27oWEO9nV8AAAPo/yay-hooray.mp4'
             ),
-            MessageType.image,
+            MessageType.gif,
             undefined,
             undefined,
             `🏮 *Username: ${username}*\n\n🎗️ *About: ${
