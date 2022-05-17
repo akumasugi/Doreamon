@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
         const exp = (await this.client.getUser(user)).Xp
         let role: string;
 				if (exp < 500) {
-					 = "🌸 citizen";
+					role = '🌸 Citizen'
 				} else if (exp < 1000) {
 					role = "🔎 Cleric";
 				} else if (exp < 2000) {
