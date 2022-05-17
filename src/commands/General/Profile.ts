@@ -88,7 +88,7 @@ export default class Command extends BaseCommand {
                 pfp ||
                     'https://c.tenor.com/g27oWEO9nV8AAAPo/yay-hooray.mp4'
             ),
-            MessageType.gif,
+            MessageType.image,
             undefined,
             undefined,
             `🏮 *Username: ${username}*\n\n🎗️ *About: ${
