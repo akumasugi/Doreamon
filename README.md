@@ -26,7 +26,7 @@
 ## 📑 Deploy/Hosting Guide
 
 -   Section Moved to
-    [CONTACT US](Wa.me/+917892202052)
+    [CONTACT US](https://www.instagram.com/akuma__24)
 
 ## 👀 Features of the Repo
 
