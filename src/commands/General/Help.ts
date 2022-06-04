@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            'https://c.tenor.com/WPx6RzMr2MkAAAPo/doraemon-happy.mp4'
+            'https://telegra.ph/file/9e67864de7fe46e5f5616.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -43,12 +43,11 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─「(づ￣ 3￣)づ」
-│⋊ *User*: *${M.sender.username}*
-│⋊ *Name*: *DORA* 🐱
-│⋊ *Prefix*: ${this.client.config.prefix}
-│⋊ *Owner*: *${this.client.config.prefix}mod* Ask Mods if you want to add me in your Group
-│⋊ *SUPPORT GC*: https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+╭─「( ꈍᴗꈍ)」
+│⋊ 𝐔𝐬𝐞𝐫: *${M.sender.username}*
+│⋊ 𝐍𝐚𝐦𝐞: 𝐃𝐨𝐫𝐚𝐞𝐦𝐨𝐧 🐱
+│⋊ 𝐏𝐫𝐞𝐟𝐢𝐱: ${this.client.config.prefix}
+│⋊ 𝐎𝐰𝐧𝐞𝐫: https://www.instagram.com/akuma__24/?hl=en
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,10 +59,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅[ *I WANT DORACAKE* ]❅───
+ ──❅[ *𝐈 𝐖𝐀𝐍𝐓 𝐃𝐎𝐑𝐀𝐂𝐀𝐊𝐄* ]❅───
 ┌────────────┈❅
-│   🐈 *DOREAMON* 🐈
-│     *By KAI*
+│   🐈 *𝐃𝐎𝐑𝐄𝐀𝐌𝐎𝐍* 🐈
+│     *𝐀𝐊𝐔𝐌𝐀*
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 💙 *Note: Use ${this.client.config.prefix}gadget <command_name> to view the gadgets info*` }
