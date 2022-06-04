@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         MessageType.image,
                     undefined,
                     undefined,
-                    `*Bye-bye I'm going back to twentysecond century* 👋\n`,
+                    `*Bye-bye i'm going back to 22nd century* 👋\n`,
                     undefined
                     ).catch((reason: any) =>
                     M.reply(`✖ An error occurred. Please try again later.`))
