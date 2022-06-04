@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Ronen6999/Doreamon.git"
+        "url": "https://github.com/akumasugi/Doreamon.git"
     },
     "keywords": [
         "bot",
@@ -23,9 +23,9 @@
     "author": "Synthesized Infinity & Shinei Ichijo",
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/Ronen6999/Doreamon.git"
+        "url": "https://github.com/akumasugi/Doreamon.git"
     },
-    "homepage": "https://github.com/Ronen6999/Doreamon/blob/main/README.md",
+    "homepage": "https://github.com/akumasugi/Doreamon/blob/main/README.md",
     "devDependencies": {
         "@types/express": "^4.17.12",
         "@types/fs-extra": "^9.0.11",
