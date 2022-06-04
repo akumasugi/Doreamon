@@ -30,12 +30,6 @@ export default class Command extends BaseCommand {
 		const term = joined.trim();
 		const gifs = [
 			"https://c.tenor.com/WPx6RzMr2MkAAAPo/doraemon-happy.mp4",
-			"https://c.tenor.com/yHJvx1u8NpoAAAPo/doraemon-broken.mp4",
-			"https://c.tenor.com/t7uGG-fOaF4AAAPo/doraemon-itches.mp4",
-			"https://c.tenor.com/QQu3GbKS8AwAAAPo/doraemon-cute.mp4",
-			"https://c.tenor.com/g27oWEO9nV8AAAPo/yay-hooray.mp4",
-			"https://c.tenor.com/5qtcif_1Xi8AAAPo/sad-doraemon.mp4",
-			"https://c.tenor.com/WPx6RzMr2MkAAAPo/doraemon-happy.mp4",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -46,7 +40,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*📢[⚡DOREAMON⚡ BROADCAST」📢*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			const text = `*📢[🐱DOREAMON🐱 BROADCAST」📢*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
 				mimetype: Mimetype.gif,
 				caption: `${text}`,
