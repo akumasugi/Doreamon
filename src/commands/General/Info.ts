@@ -41,7 +41,7 @@ export default class Command extends BaseCommand {
 		}
 		this.run = async (M: typings.ISimplifiedMessage): Promise<void> => {
 			const chitoge =
-				"https://c.tenor.com/QQu3GbKS8AwAAAPo/doraemon-cute.mp4";
+				"https://c.tenor.com/n1XOa4zfUOAAAAPo/doraemon-fudgy-pie.mp4";
 			return void this.client.sendMessage(
 				M.from,
 				{ url: chitoge },
@@ -51,7 +51,7 @@ export default class Command extends BaseCommand {
 					mimetype: Mimetype.gif,
 					caption: `━━━❰ *DOREAMON* ❱━━━\n\n🔮 *Groups: ${
 				chats.length
-					}*\n\n👀 *Im Alive since (uptime): ${uptime()}*\n\n💙 *My cute Nobita's 🤣 (users): ${users}*\n\n💢 *Bad people's (Banned Users): ${uban}*\n\n\n`,
+					}*\n\n👀 *Im Alive since (uptime): ${uptime()}*\n\n💙 *My cute Nobita's 😇 (users): ${users}*\n\n💢 *Bad people's (Banned Users): ${uban}*\n\n\n`,
 				}
 			);
 		};
