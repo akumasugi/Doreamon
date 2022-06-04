@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: 'akuma',
             description: 'Displays info about akuma.',
             category: 'general',
-            usage: `${client.config.prefix}Zerotwo`
+            usage: `${client.config.prefix}Doreamon`
         })
     }
     run = async (M: ISimplifiedMessage): Promise<void> => {
