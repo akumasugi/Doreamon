@@ -12,23 +12,23 @@ export default class Command extends BaseCommand {
             description: 'Gets the support group links',
             category: 'general',
             usage: `${client.config.prefix}Support`,
-            baseXp: 1
+            baseXp: 10
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    ♥️ SUPPORT ♥️\n\n*🐱 DOREAMON SUPPORT:🐱* *https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO*\n\n*For fun*:*https://chat.whatsapp.com/I7Q81FHAkIq8xtMrC7SKAD*`,
+        `    🐱Doaremon🐱\n\n*🐱My insta id:🐱* *https://www.instagram.com/akuma__24/*\n\n`,
            MessageType.text
         ))
         const n = [
-            'https://c.tenor.com/5qtcif_1Xi8AAAPo/sad-doraemon.mp4'
+            'https://telegra.ph/file/4ce36b9079147a77788c9.mp4'
         ]
         let beckylynch = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Sent you the support Link in personal message \n` }
+            caption: `Darling please check your personal text.\n` }
         )
 
         }
